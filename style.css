@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body {
+  background-image: url("banner.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.658);
+  margin: 0;
+  padding: 0;
+}
+.mp-one {
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow:scroll;
+    height: 100%;
+}
+.mp-one::-webkit-scrollbar
+{
+    background-color: rgb(39, 39, 39);
+}
+.mp-one::-webkit-scrollbar-button
+{
+    background-color: rgb(105, 105, 105);
+}
+.mp-one::-webkit-scrollbar-corner
+{
+    background-color: rgb(105, 105, 105);
+}
+.center
+{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.icon
+{
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    border-radius: 4px;
+    float: left;
+}
+.icon img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 30px;
+    margin: 5px;
+    display: inline;
+    float: left;
+}
+.icon h1
+{
+    color: white;
+    display: inline;
+    font-family: 'Andika', sans-serif;
+    text-shadow: 0 0 0.4em;
+    float: left;
+    margin-left: 30px;
+}
+.clear
+{
+    clear: both;
+}
+.menu
+{
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.menu a 
+{
+    margin: 10px;
+    padding: 15px 20px;
+    background-color: rgb(212, 156, 35);
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Andika', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+.menu a:hover
+{
+    background-color: rgb(212, 62, 35);
+}
+.line
+{
+    background-color: white;
+    width: 95%;
+    border: 2px solid rgb(167, 167, 167);
+    border-radius: 4px;
+    margin: 10px auto 10px auto;
+}
+
+
+
+.footer
+{
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.footer-box-one
+{
+    width: 30%;
+    float: left;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.footer-box-one h1, .footer-box-two h1, .footer-box-three h1
+{
+    color: rgb(255, 84, 84);
+    font-family: 'Kanit', sans-serif;
+
+}
+.footer-box-one p, .footer-box-two p, .footer-box-three p
+{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+.footer-box-two
+{
+    width: 30%;
+    float: left;
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.footer-box-two a
+{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    display: block;
+    transition: 0.4s;
+
+}
+.footer-box-two a:hover
+{
+    color: rgb(212, 156, 35);
+
+}
+.footer-box-three
+{
+    width: 30%;
+    float: right;
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.footer-box-three img
+{
+    margin-right: 8px;
+}
+
+.footer span {transition: 0.4s; color:rgb(0, 132, 255)}
+.footer span:hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+    color: lime;
+}
+#footertext-bottom
+{
+    cursor: -webkit-grab;
+    color: rgb(212, 212, 212);
+    font-family: 'Andika', sans-serif;
+    text-align: center;
+    margin:0;
+    padding: 20px;
+}
+
+
+
+/* Page */
+.box-color-gray { background-color: rgb(43, 43, 43); }
+.box-color-blue { background-color: rgb(56, 56, 134);}
+.box-font-red { color: red;}
+.box-font-blue { color: rgb(0, 132, 255);}
+.box-font-green { color: rgb(248, 245, 39);}
+.box-font-white { color: rgb(255, 255, 255);}
+.box
+{
+    width: 100%;
+    margin: 6px auto 6px auto;
+    border-radius: 4px;
+}
+.box h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+.box p
+{
+    text-align: center;
+    font-family: 'Andika', sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.box span {transition: 0.4s;}
+.box span:hover
+{
+    opacity: 0.6;
+    cursor: pointer;
+    color: lime;
+}
