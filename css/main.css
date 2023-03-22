@@ -251,11 +251,9 @@
     }
     .navigation-mobile a {
         display: block;
-        width: 90%;
         text-decoration: none; 
         font-family: 'Tilt Warp', cursive;
         color: #eee;
-        text-align: center;
         padding: 1%;
     }
     .navigation-mobile-button {
