@@ -1,0 +1,23 @@
+/* Home page content */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+.content div {
+    padding: 1%;
+}
+.content div h1 {
+    text-align: center;
+    text-shadow: 0 0 0.6em #7289da;
+    color: #7289da;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+}
+.content div p {
+    text-align: center;
+    color: palegreen;
+    font-family: 'Kanit';
+    font-size: 19px;
+}
+.content div iframe {
+    width: 100%;
+    align-items: center;
+}
