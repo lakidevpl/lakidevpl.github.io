@@ -1,0 +1,40 @@
+/* Home page content */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+.content div {
+    padding: 1%;
+}
+.content div h1 {
+    text-align: center;
+    text-shadow: 0 0 0.6em #7289da;
+    color: #7289da;
+    font-family: 'Righteous', cursive;
+}
+.content div p {
+    text-align: center;
+    color: rgb(78, 126, 216);
+    font-family: 'Kanit';
+    font-size: 19px;
+}
+.content div iframe {
+    width: 100%;
+    align-items: center;
+}
+.content div a {
+    color: white;
+    text-decoration: none;
+    padding: 1%;
+    text-align: center;
+    display: block;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0 0 0.6em white;
+    width: 50%;
+    margin: 1% auto;
+    transition: 0.4s;
+}
+.content div a:hover {
+    background-color: #4666db;
+    border-radius: 10px;
+    color: black;
+    text-shadow: 0 0 0.6em black;
+}
