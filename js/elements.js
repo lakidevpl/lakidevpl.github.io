@@ -1,11 +1,11 @@
 // Variables
 copyright = "©️ 2023 mlecznyy.github.io"
 mail = "mlecznyprogramista@gmail.com"
-link_configuration = "configurations.html"
-link_plugins = "plugins.html"
-link_videos = "videos.html"
-link_contact = "contact.html"
-link_home = "index.html"
+link_configuration = "configurations"
+link_plugins = "plugins"
+link_videos = "videos"
+link_contact = "contact"
+link_home = "index"
 
 link_youtube = "https://youtube.com/@mlecznyprogramista"
 link_twitch = "https://twitch.tv/mlecznyprogramista"
