@@ -13,7 +13,7 @@
     body {
         background-color: coral;
         background: url(../images/background.png);
-        background-size: 100%;
+        background-size: 150%;
         background-repeat: no-repeat;
         background-color: rgba(0, 0, 0, 0.658);
         margin: 0;
@@ -300,11 +300,9 @@
         font-size: 15px;
     }
     .menu_footer {
-        float:left;
         padding: 1%;
-        max-width: 250px;
+        max-width: 100%;
         margin: 2%;
-        height: 300px;
     }
     .menu_footer h1 {
         color: white;
@@ -316,7 +314,7 @@
         text-decoration: none;
         color: #7289da;
         font-family: 'Tilt Warp', cursive;
-        padding: 4%;
+        padding: 1%;
         transition: 0.4s;
     }
     .menu_footer a:hover {

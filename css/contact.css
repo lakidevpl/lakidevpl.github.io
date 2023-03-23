@@ -16,10 +16,6 @@
     font-family: 'Kanit';
     font-size: 19px;
 }
-.content div iframe {
-    width: 100%;
-    align-items: center;
-}
 .content div a {
     color: white;
     text-decoration: none;
@@ -37,4 +33,25 @@
     border-radius: 10px;
     color: black;
     text-shadow: 0 0 0.6em black;
+}
+
+@media only screen and (max-width: 600px) {
+    .content div a {
+        color: white;
+        text-decoration: none;
+        padding: 1%;
+        text-align: center;
+        display: block;
+        font-family: 'Righteous', cursive;
+        text-shadow: 0 0 0.6em white;
+        width: 100%;
+        margin: 1% auto;
+        transition: 0.4s;
+    }
+    .content div a:hover {
+        background-color: #4666db;
+        border-radius: 10px;
+        color: black;
+        text-shadow: 0 0 0.6em black;
+    }
 }
