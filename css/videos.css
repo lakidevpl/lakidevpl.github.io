@@ -34,7 +34,7 @@
         transition: 0.4s;
     }
     .video:hover {
-        background-color: #7289da;
+        background-color: #4666db;
     }
     .video video {
         width: 99%;
@@ -61,7 +61,7 @@
     .video a {
         display: block;
         margin: 1%;
-        background-color: rgb(21, 168, 187);
+        background-color: rgb(0, 225, 255);
         border-radius: 10px;
         border: 2px solid white;
         text-decoration: none;
@@ -76,6 +76,7 @@
         background-color: red;
         color: #fff;
         text-shadow: 0 0 0.8em white;
+        border: 2px solid black;
 
     }
 
