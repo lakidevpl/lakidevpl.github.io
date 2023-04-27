@@ -24,67 +24,71 @@
         border-radius: 10px;
         margin-top: 10px;
     }
-    .video {
-        width: 47%;
-        display: inline-block;
-        margin: 1%;
+    #videos {
+        position: static;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2%;
+    }
+    .video iframe {
+        position: static;
+        float: left;
+        width: 100%;
+        height: 27vh;
         border-radius: 10px;
-        user-select: none;
-        cursor: auto;
-        transition: 0.4s;
     }
-    .video:hover {
-        background-color: #4666db;
-    }
-    .video video {
-        width: 99%;
-        margin-top: 1%;
-        border-radius: 10px;
-        opacity: 0.9;
-        transition: 0.4s;
-        max-height: 300px;
-    }
-    .video video:hover { 
-        opacity: 100;
-    }
-    .video h1 {
-        margin: 0;
-        padding: 1%;
-        font-family: 'Righteous', cursive;
-        color: white;
-        font-size: 20px;
-    }
-    .video h1 span {
-        color: lime;
-        text-shadow: 0 0 0.4em lime;
+    .video h3 {
+        position: static;
+        float: left;
+        color: rgb(221, 47, 47);
+        text-shadow: 0 0 0.4em rgb(221, 47, 47);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     .video a {
-        display: block;
-        margin: 1%;
-        background-color: rgb(0, 225, 255);
+        display: flex;
+        width: 100%;
+        background-color: rgb(221, 47, 47);
+        padding: 1vh 0;
         border-radius: 10px;
-        border: 2px solid white;
+        justify-content: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-decoration: none;
-        width: 90%;
         color: black;
-        text-shadow: 0 0 0.4em black;
-        padding: 2px;
+        margin: 1vh 0;
         transition: 0.4s;
         cursor: pointer;
     }
     .video a:hover {
-        background-color: red;
-        color: #fff;
-        text-shadow: 0 0 0.8em white;
-        border: 2px solid black;
-
+        background-color: antiquewhite;
+        box-shadow: 0 0 0.7em antiquewhite;
     }
-
+    .video {
+        user-select: none;
+        position: static;
+        display: block;
+        width: 48%;
+        height: 150%;
+        margin-bottom: 20px;
+        border-radius: 20px;
+    }
     .mobile {
         display: none;
         visibility: hidden;
     }
 }
+.clear {
+    clear: both;
+}
+@media screen and (max-width: 1200px) {
+    #videos {
+      flex-direction: column;
+    }
+    .video {
+      width: 100%;
+    }
+  }
+
 
 /* MOBILE */
 @media only screen and (max-width: 940px) {
