@@ -1,0 +1,64 @@
+/* Home page content */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+table {
+    margin: 0 auto;
+    padding: 1%;
+}
+table, tr, td {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 110%;
+    border-collapse: collapse;
+    color: #fff;
+}
+td {
+    width: 50%;
+    padding: 2%;
+}
+td img {
+    width: 100%;
+    border-radius: 5px;
+    max-height: 500px;
+    max-width: 500px;
+}
+td iframe {
+    width: 100%;
+}
+
+td h1 {
+    text-align: center;
+    text-shadow: 0 0 0.6em lime;
+    color: lime;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+}
+td p, a {
+    text-align: center;
+    text-shadow: 0 0 0.6em rgb(41, 116, 212);
+    color: rgb(41, 116, 212);
+    font-family: 'Kanit', sans-serif;
+    font-size: 19px;
+}
+td p span {
+    text-align: left;
+    color: whitesmoke;
+}
+.mobile {
+    visibility: hidden;
+    display: none;
+    
+    background-color: #0d1013;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 990px) {
+    .mobile {
+        visibility: visible;
+        display: block;
+    }
+    .content {
+        visibility: hidden;
+        display: none;
+    }
+}
